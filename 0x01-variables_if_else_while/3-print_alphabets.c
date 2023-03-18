@@ -8,10 +8,11 @@
 int main(void)
 {
 	char x;
+	char j;
 
 	for (x = 'a'; x <= 'z'; x++)
 		putchar(x);
-	char j = toupper(x);
+	j = toupper(x);
 
 	putchar(j);
 	putchar('\n');
