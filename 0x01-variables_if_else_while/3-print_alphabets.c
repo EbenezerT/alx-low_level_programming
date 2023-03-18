@@ -15,7 +15,7 @@ int main(void)
 		putchar(x);
 		j = toupper(x);
 		putchar(j);
-		putchar('\n');
 	}
+	 putchar('\n');
 	return (0);
 }
