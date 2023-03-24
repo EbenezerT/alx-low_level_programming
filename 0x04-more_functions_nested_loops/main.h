@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <ctype.h>
+#include <stdio.h>
 int _putchar(char c);
 int main(void);
 int _isupper(int c);
@@ -13,7 +14,6 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
-
 
 
 #endif
