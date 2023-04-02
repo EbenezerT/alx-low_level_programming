@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int mul, sum;
+	int mul, sum = 0;
 
 	for (mul = 0; mul < 1024; mul++)
 	{
