@@ -11,7 +11,7 @@ int main(void)
 
 	for (mul = 0; mul < 1024; mul++)
 	{
-		if (mul % 3 == 0 || mul % 5 == 0)
+		if ((mul % 3) == 0 || (mul % 5) == 0)
 			sum = +mul;
 	}
 	printf("%d\n", sum);
