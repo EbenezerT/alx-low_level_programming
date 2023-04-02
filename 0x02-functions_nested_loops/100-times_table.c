@@ -14,9 +14,10 @@ void print_times_table(int n)
 		for (row = 0; row <= n; row++)
 		{
 			printf("0");
-			printf(" ");
 			for (col = 1; col <= n; col++)
 			{
+				printf(",");
+				printf(" ");
 				prod = row * col;
 				if (prod <= 99)
 					printf(" ");
