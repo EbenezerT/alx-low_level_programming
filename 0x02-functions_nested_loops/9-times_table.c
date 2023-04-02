@@ -19,7 +19,7 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
-			prod = row *col;
+			prod = row * col;
 		if (prod <= 9)
 		{
 			_putchar(' ');
