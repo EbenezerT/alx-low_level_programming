@@ -14,6 +14,6 @@ int main(void)
 		if (mul % 3 == 0 || mul % 5 == 0)
 			sum =+ mul;
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 }
