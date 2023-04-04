@@ -3,7 +3,7 @@
 /**
  * *_memset - Fills memory space with constant byte
  * @s: A pointer to the memory area to be filled.
- * @c: The character to fill the memory area with.
+ * @b: The character to fill the memory area with.
  * @n: The number of bytes to be filled.
  * Return: returns memory
  */
