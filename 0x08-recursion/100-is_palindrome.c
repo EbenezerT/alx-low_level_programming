@@ -30,7 +30,7 @@ int check_palidrome(char *s, int start, int end)
 	if (start >= end)
 		return (1);
 	else if (s[start] == s[end])
-		return check_palidrome(s, start + 1, end - 1);
+		return (check_palidrome(s, start + 1, end - 1));
 	else
 		return (0);
 }
