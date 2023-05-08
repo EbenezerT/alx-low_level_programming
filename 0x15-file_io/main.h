@@ -6,6 +6,10 @@
 #include <stdio.h>
 #include <fcntl.h>
 
+
+char *create_buffer(char *file);
+void close_file(int fd);
+
 int main(int ac, char **av);
 int _putchar(char c);
 ssize_t read_textfile(const char *filename, size_t letters);
